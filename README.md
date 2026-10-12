@@ -28,6 +28,12 @@ A coordinator skill plus 18 stage skills that take any product — physical, dig
 | [pdd-development-economics](skills/pdd-development-economics/SKILL.md) | NPV model, sensitivities, tornado chart, trade-off rules, decision trees (includes `scripts/npv_model.py`) |
 | [pdd-project-management](skills/pdd-project-management/SKILL.md) | Contract book, DSM, Gantt/PERT, critical path, staffing, budget, risk plan, acceleration, execution, postmortem |
 
+## Marketing
+
+| Skill | Use it for |
+|---|---|
+| [marketing-management](skills/marketing-management/SKILL.md) | Market & customer analysis, STP and positioning, brand equity, product/service/price/channel/communications strategy, sales force, loyalty & CLV, growth, marketing plan and metrics. Based on *Marketing Management* by Kotler & Keller. Pairs with the product design suite for go-to-market. |
+
 ## Installing
 
 **Claude.ai / desktop app:** upload the zip of each skill folder you want (or the whole suite) under Settings → Capabilities → Skills. Install the coordinator plus whichever stage skills you need; the coordinator still works alone.
@@ -41,4 +47,4 @@ cp -r ai_skills/skills/* ~/.claude/skills/
 
 ## Notes
 
-Skill content summarises published methods in original wording; it does not reproduce the source book. Buy the book — it is worth it.
+Skill content summarises published methods in original wording; it does not reproduce the source books. Buy the books — they are worth it.
